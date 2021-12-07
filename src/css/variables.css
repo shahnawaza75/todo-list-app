@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --white: #f9fafe;
+    --black: #1d2025;
+}

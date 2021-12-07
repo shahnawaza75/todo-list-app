@@ -1,12 +1,16 @@
 import './App.css'
-import { useState } from 'react'
+import './css/normalize.css'
+import './css/variables.css'
+import './css/typography.css'
+import Navbar from './components/Navbar/Navbar.jsx'
+
 
 function App() {
 
   return (
     <div className='App'>
-      <h1>Hello there</h1>
-      <button onClick= { ()=> setCount(count += 1 )} > {count} </button>
+      <Navbar />
+     
     </div>
   )
 }
