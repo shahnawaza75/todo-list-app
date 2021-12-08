@@ -1,9 +1,18 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-:root{
-    --white: #f9fafe;
-    --black: #1d2025;
+:root {
+  --white: #fff;
+  --white-pale: #f9fafe;
+  --black: #1d2025;
+  --grayish: #68707d;
+
+  --kumbh-sans: 'Kumbh Sans', sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --shadow: drop-shadow(0px 4px 10px rgba(112, 144, 176, 0.2));
 }
