@@ -1,11 +1,47 @@
+@import './variables.css';
 
-html{
-    font-size: 16px;
+html {
+  font-size: 16px;
 }
 
-body{
-    font-size: 1.1rem;
+body {
+  font-size: 1.1rem;
+  font-family: var(--kumbh-sans);
 }
-h1{
-    font-size: 5rem;
+h1 {
+  font-size: 5rem;
+  font-weight: var(--font-weight-bold);
+}
+
+h2 {
+  font-weight: var(--font-weight-bold);
+  font-size: 1.4rem;
+}
+
+.text-regular {
+  font-weight: var(--font-weight-regular);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.text-medium {
+  font-weight: var(--font-weight-medium);
+  font-size: 1rem;
+}
+
+.text-bold {
+  font-weight: var(--font-weight-bold);
+  font-size: 1rem;
+}
+
+.grayish {
+  color: var(--grayish);
+}
+
+.black {
+  color: var(--black);
+}
+
+button {
+  all: unset;
 }

@@ -1,14 +1,12 @@
+.App {
+  background-color: var(--white-pale);
+  height: 100vh;
+  position: relative;
 
-
-
-.App{
-    background-color: var(--white);
-    height: 100vh;
-    position: relative;
-
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr auto;
-    grid-template-areas: "content"
-                         "navbar"; 
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  grid-template-areas:
+    'content'
+    'navbar';
 }
