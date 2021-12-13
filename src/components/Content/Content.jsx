@@ -18,7 +18,7 @@ export default function Content() {
       <div onClick={(e) => setOpen(!open)}>
         <AddButton />
       </div>
-      <AddTodoPanel className={` ${open ? 'open' : null}`} />
+      {open && <AddTodoPanel className={` ${open ? 'open' : null}`} />}
     </main>
   )
 }
