@@ -4,11 +4,12 @@ import './Card.css'
 import Options from '../Icons/Options'
 import OptionsContent from '../OptionsContent/OptionsContent'
 
-export default function Card() {
+export default function Card({ todo }) {
   const [optionsActive, setOptionsActive] = useState(false)
+  const { id, task, completed } = todo
 
   return (
-    <div className='card'>
+    <li className='card'>
       <div className='card__header'>
         <h2 className='card__title black'>Title</h2>
         <button
@@ -27,6 +28,6 @@ export default function Card() {
       <p className='card__state text-medium black'>State</p>
 
       {optionsActive && <OptionsContent />}
-    </div>
+    </li>
   )
 }

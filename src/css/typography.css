@@ -43,5 +43,6 @@ h2 {
 }
 
 button {
-  all: unset;
+  border: none;
+  background-color: transparent;
 }

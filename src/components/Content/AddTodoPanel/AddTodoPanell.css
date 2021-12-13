@@ -1,0 +1,17 @@
+.panel {
+  display: none;
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  z-index: 2;
+  position: absolute;
+  padding: 4rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: var(--shadow);
+}
+
+.panel.open {
+  display: flex;
+  flex-direction: column;
+}
