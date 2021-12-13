@@ -4,10 +4,15 @@
 }
 
 :root {
+  --red: #d7131f;
+  --green: #19d16f;
   --white: #fff;
   --white-pale: #f9fafe;
   --black: #1d2025;
   --grayish: #68707d;
+
+  --red-hover: #a10c16;
+  --green-hover: #02a14d;
 
   --kumbh-sans: 'Kumbh Sans', sans-serif;
   --font-weight-regular: 400;
@@ -15,4 +20,6 @@
   --font-weight-bold: 700;
 
   --shadow: drop-shadow(0px 4px 10px rgba(112, 144, 176, 0.2));
+
+  --border-radius: 0.5rem;
 }

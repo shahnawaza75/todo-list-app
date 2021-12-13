@@ -43,5 +43,11 @@ h2 {
 }
 
 button {
-  all: unset;
+  border: none;
+  background-color: transparent;
+}
+
+input {
+  border: none;
+  background: transparent;
 }

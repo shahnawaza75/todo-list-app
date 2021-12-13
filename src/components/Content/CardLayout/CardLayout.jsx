@@ -2,15 +2,13 @@ import Card from '../Card/Card'
 
 import './CardLayout.css'
 
-export default function CardLayout() {
+export default function CardLayout({ todos }) {
   return (
-    <main className='card-layout'>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-    </main>
+    <ul className='card-layout'>
+      {todos.map((todo) => (
+        // <Card />
+        <li>tarea</li>
+      ))}
+    </ul>
   )
 }

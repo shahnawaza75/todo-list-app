@@ -1,12 +1,14 @@
 import './Navbar.css'
 
-import AddButton from './AddButton.jsx'
-// import Toggle from './Toggle.jsx'
+import AddButton from '../Utils/AddButton/AddButton.jsx'
+import AddTodoPanel from './AddTodoPanel/AddTodoPanel'
+
 export default function Navbar() {
   return (
     <nav className='navbar'>
-      <AddButton />
-      {/* <Toggle/> */}
+      <div onClick={(e) => setOpen(!open)}>
+        <AddButton />
+      </div>
     </nav>
   )
 }
